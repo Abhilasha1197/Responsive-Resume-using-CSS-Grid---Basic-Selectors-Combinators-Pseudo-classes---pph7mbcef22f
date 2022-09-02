@@ -93,8 +93,12 @@ box-sizing: border-box;
 .progress-bar{
     border: 1px white;
     height: 4px;
-    width: 90%;
-    
+    display: block;
+    margin: 5px;
+ }
+.progress-bar div{
+    height: 100%;
+    background-color: lightgreen;
 }
 .main-content .right-section{
     background-color: aliceblue ;
