@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My responsive resume</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1a47aeb19d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <main class="main-content">
+    <section class="left-section">
+      <div id="left-content">
+        <div id="profile">
+          <div id="profile-details">
+            <img class="profile-image" src="https://th.bing.com/th/id/OIP.Hu-HHvKjyp-2JOb-O6VwwAHaNK?pid=ImgDet&rs=1">
+            <h2 class="name">Abhilasha Tiwari</h2>
+            <h3 class="designation">fresher</h3>
+          </div>
+          <hr/>
+            <h3 class="description">|Mern Stack|full Stack developer|</h3>
+            <div class="contact-item">
+             <div class="social-media">
+               <a class="icons" href="https://www.linkedin.com/in/abhilasha-tiwari-10a073246"><i class="fa-brands fa-linkedin"></i></a>
+               <a class="icons" href="https://www.facebook.com/abhilasha.tiwari.942"><i class="fa-brands fa-facebook"></i></a>
+               <a class="icons" href="https://github.com/Abhilasha1197"><i class="fa-brands fa-github"></i></a>
+               <a class="icons"href=""><i class="fa-brands fa-twitter icons"></i></a>
+             </div>
+              <div class="personal-details">
+               <li><i class="fa-solid fa-envelope"></i> abhilasha15597@gmail.com</li>
+               <li><i class="fa-solid fa-phone"></i> 9795149184</li>
+               <li><i class="fa-solid fa-location-pin"></i> earth</li>
+              </div>
+            </div>
+        </div>
+             <div class="skills">
+
+                <h2 class="skills-title">skills</h2>
+
+                <div class="skills-content">
+                    <div class="skill-item">
+                      <div class="skill-name"><h3>HTML</h3></div>
+                      <div class="progress-bar"><progress value="60" max="100">60</progress></div>
+                      </div>
+                    <div class="skill-item">
+                      <div class="skill-name"><h3>CSS</h3></div>
+                      <div class="progress-bar"><progress value="60" max="100">60</progress></div>
+                      </div>
+                   <div class="skill-item">
+                      <div class="skill-name"><h3>javascript</h3></div>
+                      <div class="progress-bar"><progress value="30" max="100">100</progress></div>
+                      </div>
+                   <div class="skill-item">
+                      <div class="skill-name"><h3>react</h3></div>
+                      <div class="progress-bar"><progress value="30" max="100">100</progress></div>
+                      </div>
+                   <div class="skill-item">
+                      <div class="skill-name"><h3>nodejs</h3></div>
+                      <div class="progress-bar"><progress value="30" max="100">100</progress></div>
+                      </div>
+                   <div class="skill-item">
+                      <div class="skill-name"><h3>mogoDB</h3></div>
+                      <div class="progress-bar"><progress value="30" max="100">100</progress></div>
+                      </div>
+                </div>
+          </div>
+    </div>
+    </section>
+    <section class="right-section">
+      <div class="right-main-content">
+        <section class="about-section">
+        <h2 class="right-title">About me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi perferendis eveniet mollitia enim illo sint quod 
+          incidunt facilis voluptates sunt dicta aliquam consequatur in expedita qui ipsam nam minus aspernatur, reprehenderit autem 
+           eaque impedit id? Facilis officiis ducimus eos quia.</p>
+        </section>
+        <section class="education-section">
+          <h2 class="right-title">education</h2>
+          <div class="eduction-content">
+          <h4>GRADUATION IN CIVIL ENGINEERING</h4> 
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vitae ducimus officiis impedit 
+          odio in dicta nobis totam aliquid est ipsa natus tempore rerum nam mollitia, quasi amet repellat, incidunt harum.
+           Necessitatibus hic, commodi eligendi harum soluta dicta magni qui nisi tempore quas, cum, deleniti quae veritatis 
+           earum! Molestiae, blanditiis.</p>
+           <aside class="aside">
+            <h4>MMMUT</h4>
+            <span>2016-2020</span>
+           </aside>
+           <h4>SENIOR SECONDARY SCHOOL</h4>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vitae ducimus officiis impedit 
+            odio in dicta nobis totam aliquid est ipsa natus tempore rerum nam mollitia, quasi amet repellat, incidunt harum.
+             Necessitatibus hic, commodi eligendi harum soluta dicta magni qui nisi tempore quas, cum, deleniti quae veritatis 
+             earum! Molestiae, blanditiis.</p>
+          </div>
+        </section>
+          <section class="exp-section">
+            <h2 class="right-title">experience</h2>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis eveniet natus fugiat provident voluptates harum enim 
+            earum, amet quos error doloremque cupiditate adipisci. Porro adipisci animi ipsa corrupti laborum, aliquam voluptas 
+            quia beatae aliquid perspiciatis, qui officia magnam pariatur molestias dicta molestiae quibusdam id, quas at accusamus 
+            ullam. Ipsum, recusandae!</p>
+          </section>
+        <section class="projects">
+         <h2 class="right-title">projects</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, rerum. Illum omnis iure dolore, odit 
+          maiores architecto voluptas unde ut voluptates ipsum! Dolor, numquam assumenda. Aut, nam iusto? Exercitationem 
+          quis culpa accusamus iure tenetur dolore aut minima, officia, perspiciatis, error voluptate laboriosam illo unde 
+          totam optio rerum dolorum qui corporis.</p>
+        </section>
+      </div>
+    </section>
+  </main>
+</body>
+    </html>
