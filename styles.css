@@ -97,8 +97,8 @@ box-sizing: border-box;
     
 }
 .main-content .right-section{
-    background-color: aliceblue;
-    grid-column: span1 /span2;
+    background-color: aliceblue ;
+    grid-column: span1 / span2;
     position: relative;
 }
 .right-main-content{
