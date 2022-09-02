@@ -99,7 +99,7 @@ body{
     padding-bottom: 0.5rem;
 }
 .progress-bar{
-    border: 1px white;
+    border: 1px solid white;
     height: 4px;
     display: block;
     margin: 5px;
