@@ -95,14 +95,9 @@ box-sizing: border-box;
     padding-bottom: 0.5rem;
 }
 .progress-bar{
-    border: 1px white;
+    border: 1px white solid;
     height: 4px;
     display: block;
-    margin: 5px;
- }
-.progress-bar div{
-    height: 100%;
-    background-color: lightgreen;
 }
 .main-content .right-section{
     background-color: aliceblue ;
