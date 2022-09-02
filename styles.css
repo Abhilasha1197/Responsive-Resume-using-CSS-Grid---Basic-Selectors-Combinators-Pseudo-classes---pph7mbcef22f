@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+*{
+box-sizing: border-box;
+}
+.main-content{
+    position: relative;
+    min-height: 1000px;
+    width: 90%;
+    min-width: 674px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: darkcyan;
+}
+
+
+.main-content .left-section{
+    background-color: rgba(4, 4, 70, 0.193);
+    margin: 20px 0px 20px 20px;
+    grid-column: span1;
+
+}
+#left-content{
+    margin: 20px;
+    padding: 1rem;
+    
+}
+.profile-image{
+   margin: auto;
+  display: block;
+  border: 5px;
+  border-radius: 30%;
+  border-color: solid white;
+  width: 60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.02px;
+    
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+ .social-media{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   
+ }
+ .fa-solid{
+    margin: 10px;
+ }
+ .personal-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.skill-name{
+    font-size: 0.65rem;
+     text-align: left;
+    padding-bottom: 0.5rem;
+}
+.progress-bar{
+    border: 1px white;
+    height: 4px;
+    width: 90%;
+    
+}
+.main-content .right-section{
+    background-color: aliceblue;
+    margin: 20px 0px 20px 0px;
+    grid-column: span1 /span2;
+
+}
+.right-main-content{
+    margin: 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 673px){
+    .main-content{
+        grid-template-columns: repeat(1,1fr);
+        min-height: 1000px;
+        width: 90%;
+    }
+}
