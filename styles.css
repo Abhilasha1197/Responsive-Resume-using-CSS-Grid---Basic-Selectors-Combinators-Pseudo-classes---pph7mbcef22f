@@ -117,13 +117,10 @@ body{
     padding: 0.5rem;
     letter-spacing: 1px;
 }
-.education{
-    display: flex;
-    flex-direction: row;
-}
-.education h4{
-    padding: 0.5rem;
-}
+
+.education-content{
+    display:flex;
+    flex-direction :row;
 .experiance{
    display: flex;
     flex-direction:row;
