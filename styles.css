@@ -121,7 +121,7 @@ body{
 .education-content{
     display:flex;
     flex-direction :row;
-    flex-direction: wrap;
+    flex-direction: nowrap;
 }
 .exp{
    display: flex;
