@@ -117,24 +117,27 @@ body{
     padding: 0.5rem;
     letter-spacing: 1px;
 }
-
-.in-row{
+.education-content{
     display:flex;
     flex-direction :row;
-    flex-wrap:nowrap;
 }
-/*
+.education-content h5{
+    padding: 0.5rem;
+}
 .exp{
    display: flex;
     flex-direction:row;
-    flex-wrap:nowrap;
+ }
+.exp h5{
+    padding : 0.5rem;
 }
 .project-done{
     display:flex;
     flex-direction: row;
-    flex-wrap: nowrap;
 }
-*/
+.project-done h5{
+    padding: 0.5rem;
+}
 .info{
     margin-left:8px;
 }
@@ -145,10 +148,6 @@ body{
   min-height: 1000px;
   grid-template-columns:repeat(1, 1fr);
 }
-    .in-row{
-        display:flex;
-        flex-wrap:wrap;
-    }      
-    
+   
 }
 
