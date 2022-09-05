@@ -121,23 +121,17 @@ body{
     display:flex;
     flex-direction :row;
 }
-.education-content h5{
-    padding: 0.5rem;
-}
+
 .exp{
    display: flex;
     flex-direction:row;
  }
-.exp h5{
-    padding : 0.5rem;
-}
+
 .project-done{
     display:flex;
     flex-direction: row;
 }
-.project-done h5{
-    padding: 0.5rem;
-}
+
 .info{
     margin-left:8px;
 }
