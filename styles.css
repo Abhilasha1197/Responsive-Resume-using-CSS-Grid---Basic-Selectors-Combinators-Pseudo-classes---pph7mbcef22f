@@ -121,6 +121,8 @@ body{
 .education-content{
     display:flex;
     flex-direction :row;
+    flex-direction: wrap;
+}
 .exp{
    display: flex;
     flex-direction:row;
