@@ -121,7 +121,7 @@ body{
 .education-content{
     display:flex;
     flex-direction :row;
-.experiance{
+.exp{
    display: flex;
     flex-direction:row;
     flex-wrap:wrap;
